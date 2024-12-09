@@ -17,10 +17,6 @@ jobs:
     #   - https://gh.io/using-larger-runners (GitHub.com only)
     # Consider using larger runners or machines with greater resources for possible analysis time improvements.
     runs-on: ubuntu-latest
-    strategy:
-      fail-fast: false
-      matrix:
-        $codeql-languages-matrix
         # CodeQL supports the following values keywords for 'language': $supported-codeql-languages
         # Use `c-cpp` to analyze code written in C, C++ or both
         # Use 'java-kotlin' to analyze code written in Java, Kotlin or both
